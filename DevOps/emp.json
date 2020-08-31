@@ -1,0 +1,28 @@
+{
+    "emp_details" : [
+        {
+            "emp_name" : "Deepak",
+            "mail": "deepak.kumar3@bcone.com",
+            "age" : 36,
+            "position" : "intern"      
+        },
+        {
+            "emp_name" : "Rajesh",
+            "mail": "Rajesh.kumar@bcone.com",
+            "age" : 36,
+            "position" : "intern"
+        },
+        {
+            "emp_name" : "Sunil",
+            "mail": "sunil.kumar@bcone.com",
+            "age" : 30,
+            "position" : "intern"
+        },
+        {
+            "emp_name" : "Virant",
+            "mail": "virant.kumar3@bcone.com",
+            "age" : 36,
+            "position" : "intern"
+        }
+    ]
+}
