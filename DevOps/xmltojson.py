@@ -17,18 +17,17 @@ with open("D:\Data\git-deep\python-poc\DevOps\emp.xml") as xml_file:
 	# generate the object using json.dumps() 
 	# corresponding to json data 
 	
-	json_data = json.dumps(data_dict)
-    #print(json.dumps(json_data)) 
-    #print (json_data)
-        #print(json.dumps(json_data))
-	
-	# Write the json data to output 
+json_data = json.dumps(data_dict)
+    
+    # Write the json data to output 
 	# json file 
-	with open("data1.json", "w") as json_file: 
-		json_file.write(json_data)
-    print(json.dumps(json_data))
-	json_file.close() 
+with open("D:\Data\git-deep\python-poc\data1.json", "w") as json_file: 
+    json_file.write(json_data)
+    json_file.close() 
 
-#person_json = json.dumps(person_dict)
-#print(person_json)
-#print(person_dict['name'])
+f = open('D:\Data\git-deep\python-poc\data1.json',mode='r')
+data = json.load(f) 
+for i in data['employees']['employee']:
+    #print(i)
+    print(json.dumps(i, indent = 4, sort_keys=True))
+	
