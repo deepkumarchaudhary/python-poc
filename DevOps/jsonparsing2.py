@@ -1,6 +1,6 @@
 import json
 
-with open('D:\Data\Python-poc\DevOps\details.json') as f:
+with open('D:\Data\git-deep\python-poc\DevOps\details.json') as f:
     data = json.load(f)
 #person = '{"name": "Bob", "languages": ["English", "Fench"]}'
 #person_dict = json.loads(person)

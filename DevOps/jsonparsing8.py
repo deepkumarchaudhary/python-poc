@@ -8,9 +8,9 @@ dictionary ={
     "phonenumber" : "9976770500"
 } 
    
-with open("D:\Data\Python-poc\DevOps\sample.json", "w") as outfile: 
+with open("D:\Data\git-deep\python-poc\DevOps\sample.json", "w") as outfile: 
     json.dump(dictionary, outfile) 
 
-f = open('D:\Data\Python-poc\DevOps\sample.json',mode='r')
+f = open('D:\Data\git-deep\python-poc\DevOps\sample.json',mode='r')
 data = json.load(f)
 print(json.dumps(data, indent = 4, sort_keys=True))

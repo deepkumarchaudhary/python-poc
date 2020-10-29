@@ -1,7 +1,7 @@
 import json 
    
 # Opening JSON file 
-f = open('D:\Data\Python-poc\DevOps\emp.json',mode='r') 
+f = open('D:\Data\git-deep\python-poc\DevOps\emp.json',mode='r') 
    
 # returns JSON object as  
 # a dictionary 
