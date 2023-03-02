@@ -13,5 +13,5 @@ def soloution(A):
     return A[-1]
     pass
 
-A = [1,2,3,1,2,3,5]
+A = [1,2,3,1,8,2,3]
 soloution(A)

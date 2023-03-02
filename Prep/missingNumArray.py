@@ -10,5 +10,14 @@ def solution(a):
             return _
 
 
+def solution(A):
+    n = len(A) + 1
+    if n == 1:
+        return 1
+    expected_sum = (n * (n + 1)) // 2
+    print(expected_sum)
+    return expected_sum - sum(A)
+
+
 a = [1, 2, 3, 5]
 solution(a)
