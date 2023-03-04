@@ -1,5 +1,6 @@
 #CyclicRotation
 def arrayShift(A,K):
+    
     print("Original Array is:")
     print(A)
     old = A
