@@ -24,5 +24,5 @@ def slow_solution(A, B, m):
 
 a = [1, 3, 5]
 b = [4, 5, 7]
-
+slow_solution(a, b, )
 print(solution(a, 3))
